@@ -33,10 +33,12 @@ var Isabelle = new User('Isabelle', 'imthebaby@gmail.com', 'savedbythebell4life'
 
 //Create a questions Array which is going to hold all of our questions
 
-        var Quiz = function(question, answer, ) {[
+        var Quiz = [question, answer,]}
+        
         this.question = question;
         this.answer = answer;
-        ]}
+    }
+        
 
 
 
