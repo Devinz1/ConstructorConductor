@@ -33,7 +33,11 @@ var Isabelle = new User('Isabelle', 'imthebaby@gmail.com', 'savedbythebell4life'
 
 //Create a questions Array which is going to hold all of our questions
 
-  //code here
+        var Quiz = function(question, answer, ) {[
+        this.question = question;
+        this.answer = answer;
+        ]}
+
 
 
 //Now, let's say we wanted to create a quiz about JavaScript. Create three instances of Question which contain the following data
