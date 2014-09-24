@@ -5,7 +5,13 @@
 
 //Create a User constructor that accepts name, email, password, and totalScore paramters and set them appropriatly
 
-  //code here
+ var User = function(name, email, pw){
+	this.name = name;	
+	this.email = email;
+	this.pw =pw;
+}
+
+
 
 
 //Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty paramters
@@ -15,12 +21,14 @@
 
 //Create a users Array which is going to hold all of our users.
 
-  //code here
-
+  var users = [];
 
 //Let's say three people signed up for our service, create 3 intances of User and add each to the users Array
 
-  //code here
+ var devin = new User("Devin", 'devinzohner@gmail.com', 'nsaspy');
+var Jackie = new User('Jackie', 'jackiezohner@gmail.com', 'tacotuesday');
+var Isabelle = new User('Isabelle', 'imthebaby@gmail.com', 'savedbythebell4life');
+
 
 
 //Create a questions Array which is going to hold all of our questions
